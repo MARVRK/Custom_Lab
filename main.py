@@ -1,0 +1,2 @@
+class TestModel(BasicModel):
+    pass
