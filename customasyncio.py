@@ -30,7 +30,7 @@ class EventLoop:
 		if new_task.state == State.IN_PROGRESS:
 			self.ready_queue.append (new_task)
 		else:
-			raise ValueError ("State should start from IN_PROGRESS ")
+			raise ValueError ("State should start from IN_PROGRESS")
 		return new_task
 
 	def run (self):
